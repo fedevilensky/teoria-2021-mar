@@ -7,10 +7,8 @@ Abrir powershell como **administrador** y poner:
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-(Opcional) Instalar interfaz grafica para chocolatey 
-```powershell 
-choco install chocolateygui
-```
+(Opcional) Instalar interfaz grafica para chocolatey `choco install chocolateygui`
+
 Instalar haskell-platform:
     - Por consola, en un powershell como administrador (puede ser el anterior) poner `choco install haskell-platform`
     - Por la gui, abrir chocolatey gui, en la seccion chocolatey (la que esta a la izquierda) buscar haskell-platform, instalar
