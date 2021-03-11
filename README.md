@@ -10,6 +10,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 (Opcional) Instalar interfaz grafica para chocolatey `choco install chocolateygui`
 
 Instalar haskell-platform:
+
     - Por consola, en un powershell como administrador (puede ser el anterior) poner `choco install haskell-dev`
     - Por la gui, abrir chocolatey gui, en la seccion chocolatey (la que esta a la izquierda) buscar haskell-dev, instalar
 
