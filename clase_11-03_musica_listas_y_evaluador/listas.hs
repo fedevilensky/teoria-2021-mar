@@ -46,6 +46,7 @@ sort, ordena una lista de menor a mayor
 sort :: Ord a => [a] -> [a]
 -}
 
+listaOrdenada :: [Int]
 listaOrdenada = sort listaDesordenada
 
 {-
